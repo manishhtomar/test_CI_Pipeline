@@ -5,7 +5,7 @@ on:
    jobs:
    build stages:
     runs-on: ubunto-22.04
-      steps:
+     steps:
        -uses : actions/checkout@v6.0.2
        -uses :  actions/setup-node@v6.4.0
        with: 
